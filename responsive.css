@@ -1,0 +1,204 @@
+@media (max-width: 1000px) {
+  .icon{
+    width: 50%;
+  }
+  
+  .icon2{
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px ){
+
+  body{
+    width: 100%;
+    margin: 0 auto;
+    font-family: "YuMincho +36p Kana", "YuKyokasho Yoko" , serif;
+  }
+
+  .top-wrapper{
+    height: 50%;
+  }
+
+  .top{
+    padding: 140px 0;
+  }
+
+ /* .first{
+    display: flex;
+    flex-direction: column;
+  }*/
+
+  .first{
+
+    padding: 50px 0;
+  }
+  
+
+
+  .hirakawasan{
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .maru{
+    /*text-align: center;*/
+    margin: 0 auto;
+   padding-top: 50px;
+   padding-right: 25px;
+   padding-left:25px;
+   width: 100%;
+   margin-left: 0px;
+
+   /*margin-top: 50px;*/
+    
+  }
+  .top h1{
+    font-size: 30px;
+    }
+
+    .ishizuchi{
+      padding-top: 50px;
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+
+
+    .ofuki-wrapper{
+      display: flex;
+      flex-direction: column;
+      padding: 10px 0;
+    }
+    
+    .fureai-wrapper{
+      display: flex;
+      flex-direction: column;
+      padding: 10px 0;
+    }
+    
+    .house-wrapper{
+      display: flex;
+      flex-direction: column;
+      padding: 10px 0;
+    }
+
+    .ofuki{
+      width: 100%;
+      order:2;
+      padding: 50px 0;
+    }
+
+    .ofuki h1{
+      font-size: 9px;
+      padding-left: 235px;
+    }
+
+    .ofuki h2{
+      font-size: 20px;
+    }
+
+    
+
+   .yama{
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+     order: 1;
+      
+    }
+
+    .sato{
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+
+    }
+
+    .fureai{
+      padding: 50px;
+    }
+
+    .fureai-2{
+      width: 100%;
+      margin-left: 0px;
+      padding: 50px 0;
+    }
+
+    .house{
+      padding-bottom: 50px;
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+
+
+    .house-2{
+      width: 100%;
+      order:2;
+      padding: 50px 0;
+    }
+
+    .hi{
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+     order: 1;
+    }
+  
+  .icon{
+    width: 100%;
+  }
+  
+  .icon2{
+    width: 100%;
+  }
+
+  .content{
+    padding : 50px;
+  }
+
+  /*.content2{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }*/
+
+  .content1{
+    padding: 0 50px;
+  }
+
+  .content3{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .taizai-img{
+    width: 90%;
+  }
+
+.studystay h1{
+  font-size: 20px;
+}
+
+.studystay h2{
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 5;
+  margin-top: 5px;
+}
+
+.intern h3{
+  font-size: 16px;
+}
+
+
+.form p {
+  font-size: 16px;
+}
+
+
+}
+
