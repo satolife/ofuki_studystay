@@ -1,0 +1,389 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  /*font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif; */
+  font-family: "SimSun","Tsukushi A Round Gothic", "YuKyokasho Yoko" , serif;
+  margin: 0 auto;
+}
+/*Hiragino Mincho ProN*/
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.top-wrapper{
+          height:600px;
+          background-image:url("https://github.com/nomunemunomi/ofuki_studystay/blob/main/IMG_1576.JPG?raw=true");
+          background-position:center center;
+          background-size: 100% 600px;
+          /*font-family: 'SimSun', sans-serif;*/
+}
+
+.mask{
+  background-color:rgba(255,255,255,0.3);
+  height: 100%;
+  }
+  
+  .top{
+    padding: 240px 0 ;
+    text-align: center;
+    opacity: 0.5;
+   /*border: 15px solid;
+    border-color: white;
+    border-bottom: 15px solid;
+    border-color: white; */
+    color: black; 
+  }
+
+  .top p{
+    font-size: 16px;
+  }
+  
+  .top h1{
+    letter-spacing: 5;
+    font-size: 40px;
+  }
+
+  .top h2{
+    font-size: 18px;
+  }
+
+.first{
+
+  padding: 100px 0;
+}
+
+
+  .introduction{
+    border-bottom: 1px solid;
+    border-color:#C0C0C0;
+
+  }
+
+.maru{
+  margin-left: 150px; 
+ padding-top: 100px;
+}
+
+.content{
+  padding: 50px 100px ;
+  /*overflow: hidden; */
+  /*clear: both; */
+}
+
+.ofuki-wrapper{
+  display: flex;
+
+
+}
+
+.fureai-wrapper{
+  display: flex;
+
+
+}
+
+.house-wrapper{
+  display: flex;
+
+}
+
+.ishizuchi{
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.ofuki{
+ /* display: inline-block;*/
+  /*float: left;*/
+  clear: both;
+  width: 40%;
+  padding: 100px 0;
+}
+
+.ofuki h1{
+  font-size: 12px;
+  padding-left: 275px;
+}
+
+.ofuki h2{
+  margin-bottom: 20px;
+}
+
+.yama{
+  margin-left: 100px;
+  /*display: block;*/
+  /*float: right;*/
+}
+
+/*.content2 {
+  padding : 100px; */
+ /* overflow: hidden; */
+ /*clear: both;
+}*/
+
+.fureai{
+  padding: 100px ;
+}
+
+.sato {
+  /*display: inline-block;*/
+ /*float: left;
+  clear: both;*/
+}
+
+.fureai-2{
+  /*display: block;*/
+  /*float: right;*/
+  width: 40%;
+  padding: 150px 0;
+  margin-left: 100px;
+  
+}
+
+.house{
+  border-bottom: 1px solid;
+    border-color:#C0C0C0;
+    padding-bottom: 100px;
+   /* padding-bottom: 100px;*/
+    /*margin-bottom: 100px;*/
+    padding-bottom: 100px;
+      padding-right: 100px;
+      padding-left: 100px;
+}
+
+
+.house-2{
+ /* display: inline-block;*/
+ /* float: left;*/
+  width: 40%;
+  padding: 100px 0;
+
+
+}
+
+.hi {
+ /* display: inline-block;*/
+/*float: right;*/
+margin-left: 100px;
+
+
+
+}
+
+.studystay h1 {
+  letter-spacing: 10;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.studystay h2{
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 5;
+  margin-top: 5px;
+  padding-bottom: 50px;
+}
+
+/*.content4{
+  padding: 50px 100px;
+}*/
+
+.intern h3{
+  padding-top: 30px;
+  font-size: 20px;
+  /*border-bottom: 1px solid #C0C0C0;*/
+}
+
+.intern h4{
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.intern p{
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.icons {
+  clear: both;
+  display: inline-block;
+}
+
+.icon{
+  padding-top: 20px;
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.icon2{
+  float: right;
+  width: 25%;
+  text-align: center;
+}
+
+.voice {
+ padding-top: 50px;
+  padding-bottom: 10px;
+
+
+}
+
+.voice p{
+  font-size: 16px;
+  padding-top: 20px;
+  /*border-bottom: 1px solid;
+    border-color:#C0C0C0;
+    padding-bottom: 10px;*/
+}
+
+.kikaku{
+  border-top: 1px solid;
+    border-color:#C0C0C0;
+   
+  border-bottom: 1px solid;
+    border-color:#C0C0C0;
+    
+
+}
+
+.kikaku h3{
+  padding: 10px 0;
+}
+
+.shosai h3{
+  padding: 15px 0 ;
+}
+
+.taizai h4 {
+  padding: 10px 0;
+}
+
+.taizai p{
+  font-size: 14px;
+}
+
+.kikan h4{
+  font-size: 16px;
+  padding: 10px 0;
+  
+}
+
+.kikan h5{
+  font-size: 16px;
+  padding: 10px 0;
+  
+}
+
+.kikan p{
+  font-size: 14px;
+}
+
+.kikan h3{
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+
+.motimono p{
+  font-size: 14px;
+}
+
+
+
+.form{
+  border-top: 1px solid;
+  border-color:#C0C0C0;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.form p{
+  font-size: 20px;
+  
+}
+
+.btn {
+
+  color:black;
+  border-radius: 5px;
+  display: inline-block;
+  opacity: 0.8;
+  box-shadow: 2px 2px 2px ;
+}
+
+.note{
+  margin: 20px 0;
+  padding: 10px 60px;
+  background-color: #FFFFCC;
+  text-align: center;
+
+  }
+
+  .note:active{
+    box-shadow: none;
+    position: relative;
+    top: 2px;
+  }
+
+.oubo{
+margin: 20px 0;
+padding: 10px 30px;
+background-color: #CCFFCC;
+
+}
+
+.oubo:active{
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+}
+
+footer{
+  padding: 100px 0;
+  text-align: center;
+  background-color: #EEEEEE	;
+}
+
+.content2{
+  /*padding-right: 100px;*/
+  /*padding-left: 100px;*/
+  /*padding-bottom: 100px;*/
+}
+
+/*.content{
+  padding: 0 50px;
+}*/
+
+/*.content3{
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;*/
+}
+
+
+  
+
+
