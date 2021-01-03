@@ -198,6 +198,13 @@
 .form p {
   font-size: 16px;
 }
+.kikaku p{
+  font-size: 14px
+}
+
+.voice p{
+  font-size: 14px;
+}
 
 
 }
