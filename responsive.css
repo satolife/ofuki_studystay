@@ -13,7 +13,8 @@
   body{
     width: 100%;
     margin: 0 auto;
-    font-family: "YuMincho +36p Kana", "YuKyokasho Yoko" , serif;
+      font-family: 'Bookman Old Style', 'Book Antiqua'  , serif;
+  }
   }
 
   .top-wrapper{
