@@ -13,8 +13,7 @@
   body{
     width: 100%;
     margin: 0 auto;
-      font-family: 'Bookman Old Style', 'Book Antiqua'  , serif;
-  }
+    font-family: 'Bookman Old Style', 'Book Antiqua'  , serif;
   }
 
   .top-wrapper{
@@ -199,6 +198,7 @@
 .form p {
   font-size: 16px;
 }
+
 .kikaku p{
   font-size: 14px
 }
