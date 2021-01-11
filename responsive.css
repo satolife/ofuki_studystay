@@ -13,7 +13,7 @@
   body{
     width: 100%;
     margin: 0 auto;
-    
+    font-family: 'Bookman Old Style', 'Book Antiqua'  , serif;
   }
 
   .top-wrapper{
@@ -84,6 +84,12 @@
       padding: 10px 0;
     }
 
+    .maki-wrapper{
+      display: flex;
+      flex-direction: column;
+      padding: 10px 0;
+    }
+
     .ofuki{
       width: 100%;
       order:2;
@@ -127,15 +133,13 @@
     }
 
     .house{
-      padding-bottom: 50px;
-      padding-right: 50px;
-      padding-left: 50px;
+    padding: 50px;
     }
 
 
     .house-2{
       width: 100%;
-      order:2;
+      order: 2;
       padding: 50px 0;
     }
 
@@ -144,6 +148,27 @@
       margin: 0 auto;
       text-align: center;
      order: 1;
+    }
+
+    .maki{
+        padding-bottom: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
+      }
+    }
+
+    .maki2{
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+     order: 1;
+    }
+
+    .gendai{
+      width: 100%;
+      margin-left: 0px;
+      padding: 50px 0;
+      order: 2;
     }
   
   .icon{
