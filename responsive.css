@@ -13,7 +13,7 @@
   body{
     width: 100%;
     margin: 0 auto;
-    font-family: 'Bookman Old Style', 'Book Antiqua'  , serif;
+    
   }
 
   .top-wrapper{
@@ -133,13 +133,15 @@
     }
 
     .house{
-    padding: 50px;
+      padding-bottom: 50px;
+      padding-right: 50px;
+      padding-left: 50px;
     }
 
 
     .house-2{
       width: 100%;
-      order: 2;
+      order:2;
       padding: 50px 0;
     }
 
@@ -151,24 +153,22 @@
     }
 
     .maki{
-        padding-bottom: 50px;
-        padding-right: 50px;
-        padding-left: 50px;
-      }
+      padding-bottom: 50px;
+      padding-right: 50px;
+      padding-left: 50px;
     }
 
     .maki2{
       width: 90%;
       margin: 0 auto;
       text-align: center;
-     order: 1;
+
     }
 
     .gendai{
       width: 100%;
       margin-left: 0px;
       padding: 50px 0;
-      order: 2;
     }
   
   .icon{
@@ -231,7 +231,7 @@
 .voice p{
   font-size: 14px;
 }
-
+  
 .youtube{
   width: 90%;
   }
